@@ -1,0 +1,67 @@
+#!/bin/sh
+clear
+source $HOME/pro-x/print
+tput setaf 21
+tput setaf 184
+echo "  LIST FOR START UP COMPANY
+                                   PUT THEM POCKETS ON PROTIEN LEV"
+echo " "
+echo " "
+tput setaf 118
+echo " #1..  NEED A COMPANY NAME SOMETHING Catchy like ....."
+tput setaf 163
+echo " "
+echo " "
+echo " #2..  Packaging need to accompany the estetics as well as the simple "
+echo "        Minded for the purest form of people buy attractive"
+tput setaf 202
+echo " "
+echo " "
+echo " #3..  Need to take pro style like photos and post them on "
+echo "        A WebSite FaceBook Market Show off to Family and Friends Literally"
+echo "         Any word of mouth criagslist  snapchat messanger "
+echo " "
+echo " "
+tput setaf 48
+echo " #4..  Next will Have to be mass print production of certian individual"
+echo "        Selling items perfect start up front page seller's the shower music"
+echo "         Tube snuff sniffers roach holders the packing box with falses"
+echo "           Hidden slip trey "
+echo " "
+echo " "
+tput setaf 129
+echo " #5..........      POLICY STANDARDS MAYBE A COMPANY MISSION STATEMENT "
+tput setaf 34
+echo " "
+echo " "
+echo "                         -HEAR AT UR IMAGINATION-OUR_CREATION-"
+tput setaf 117
+echo " "
+echo " "
+echo "                We Firmly Stand Pround Behind Every Product We Sell,
+              Not Only Do we guarentee 100 percent satifaction and worry
+            Free hassle free experience but we also take full responsibility
+             Of shipping and handling with money back gaurentee or exchange
+                                       Of product "
+echo " "
+figlet -r -f small " 3D-PRINTING "
+sleep 3
+tput setaf 43
+echo " CONTINUE TO APPLICATION? "
+echo "            Y/N"
+read ans in
+if [ $ans = n ]
+then
+  clear
+  tput setaf 33
+  echo "Thank You For You're Interest And We @ U.I.O.C. Hope To See You Back Agian Real Soon!"
+  echo "                        KEEP IMAGINING TODAY EVERYTHING IS POSSIBLE "
+  sleep 2
+  exit
+fi
+if [ $ans = y ]
+then
+  clear
+  source $HOME/pro-x/application
+fi
+
