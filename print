@@ -1,0 +1,3 @@
+#!/bin/sh
+clear
+figlet -r -f big " 3D-PRINT" | lolcat -a
